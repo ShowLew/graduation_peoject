@@ -1,0 +1,2 @@
+class WarehouseInfo < ApplicationRecord
+end

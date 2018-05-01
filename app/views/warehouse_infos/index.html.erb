@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Warehouse Infos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>Size</th>
+      <th>Fragile</th>
+      <th>In time</th>
+      <th>Quantity</th>
+      <th>Local</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @warehouse_infos.each do |warehouse_info| %>
+      <tr>
+        <td><%= warehouse_info.no %></td>
+        <td><%= warehouse_info.size %></td>
+        <td><%= warehouse_info.fragile %></td>
+        <td><%= warehouse_info.in_time %></td>
+        <td><%= warehouse_info.quantity %></td>
+        <td><%= warehouse_info.local %></td>
+        <td><%= link_to 'Show', warehouse_info %></td>
+        <td><%= link_to 'Edit', edit_warehouse_info_path(warehouse_info) %></td>
+        <td><%= link_to 'Destroy', warehouse_info, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Warehouse Info', new_warehouse_info_path %>

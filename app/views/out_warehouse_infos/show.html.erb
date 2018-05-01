@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Out no:</strong>
+  <%= @out_warehouse_info.out_no %>
+</p>
+
+<p>
+  <strong>Out address:</strong>
+  <%= @out_warehouse_info.out_address %>
+</p>
+
+<p>
+  <strong>Buyer phone:</strong>
+  <%= @out_warehouse_info.buyer_phone %>
+</p>
+
+<p>
+  <strong>Out time:</strong>
+  <%= @out_warehouse_info.out_time %>
+</p>
+
+<p>
+  <strong>Finish:</strong>
+  <%= @out_warehouse_info.finish %>
+</p>
+
+<p>
+  <strong>Buyer name:</strong>
+  <%= @out_warehouse_info.buyer_name %>
+</p>
+
+<%= link_to 'Edit', edit_out_warehouse_info_path(@out_warehouse_info) %> |
+<%= link_to 'Back', out_warehouse_infos_path %>

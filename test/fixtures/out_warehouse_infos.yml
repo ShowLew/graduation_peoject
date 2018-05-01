@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  out_no: MyString
+  out_address: MyString
+  buyer_phone: MyString
+  out_time: 2018-05-01 19:06:37
+  finish: false
+  buyer_name: MyString
+
+two:
+  out_no: MyString
+  out_address: MyString
+  buyer_phone: MyString
+  out_time: 2018-05-01 19:06:37
+  finish: false
+  buyer_name: MyString

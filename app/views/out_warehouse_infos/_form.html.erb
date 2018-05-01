@@ -1,0 +1,47 @@
+<%= form_with(model: out_warehouse_info, local: true) do |form| %>
+  <% if out_warehouse_info.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(out_warehouse_info.errors.count, "error") %> prohibited this out_warehouse_info from being saved:</h2>
+
+      <ul>
+      <% out_warehouse_info.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :out_no %>
+    <%= form.text_field :out_no %>
+  </div>
+
+  <div class="field">
+    <%= form.label :out_address %>
+    <%= form.text_field :out_address %>
+  </div>
+
+  <div class="field">
+    <%= form.label :buyer_phone %>
+    <%= form.text_field :buyer_phone %>
+  </div>
+
+  <div class="field">
+    <%= form.label :out_time %>
+    <%= form.datetime_select :out_time %>
+  </div>
+
+  <div class="field">
+    <%= form.label :finish %>
+    <%= form.check_box :finish %>
+  </div>
+
+  <div class="field">
+    <%= form.label :buyer_name %>
+    <%= form.text_field :buyer_name %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

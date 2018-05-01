@@ -1,0 +1,2 @@
+class OutWarehouseInfo < ApplicationRecord
+end
