@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_05_01_080519) do
+ActiveRecord::Schema.define(version: 2018_05_01_111446) do
 
   create_table "active_admin_comments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "namespace"
@@ -41,6 +41,57 @@ ActiveRecord::Schema.define(version: 2018_05_01_080519) do
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_admin_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true
+  end
+
+  create_table "material_infos", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "material_name", null: false
+    t.integer "quantity", default: 1
+    t.string "local"
+    t.string "supplier_name"
+    t.string "supplier_phone"
+    t.datetime "latest_time", default: "2018-05-01 11:42:49"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "out_quantity_infos", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "no", null: false
+    t.integer "quantity", default: 1
+    t.datetime "out_quantity_time", default: "2018-05-01 11:43:41"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "out_warehouse_infos", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "out_no", null: false
+    t.string "out_address"
+    t.string "buyer_phone"
+    t.datetime "out_time", default: "2018-05-01 11:42:10"
+    t.boolean "finish", default: false
+    t.string "buyer_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "use_material_infos", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.integer "worker_number", null: false
+    t.string "worker_name"
+    t.string "material_name"
+    t.integer "quantity", default: 1
+    t.datetime "use_time", default: "2018-05-01 11:43:41"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "warehouse_infos", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
+    t.string "no"
+    t.string "size"
+    t.boolean "fragile"
+    t.datetime "in_time"
+    t.integer "quantity"
+    t.string "local"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end

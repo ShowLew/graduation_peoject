@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  'no': MyString
+  quantity: 1
+  out_quantity_time: 2018-05-01 19:14:46
+
+two:
+  'no': MyString
+  quantity: 1
+  out_quantity_time: 2018-05-01 19:14:46

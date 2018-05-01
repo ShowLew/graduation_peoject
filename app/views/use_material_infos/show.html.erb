@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Worker number:</strong>
+  <%= @use_material_info.worker_number %>
+</p>
+
+<p>
+  <strong>Worker name:</strong>
+  <%= @use_material_info.worker_name %>
+</p>
+
+<p>
+  <strong>Material name:</strong>
+  <%= @use_material_info.material_name %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @use_material_info.quantity %>
+</p>
+
+<p>
+  <strong>Use time:</strong>
+  <%= @use_material_info.use_time %>
+</p>
+
+<%= link_to 'Edit', edit_use_material_info_path(@use_material_info) %> |
+<%= link_to 'Back', use_material_infos_path %>

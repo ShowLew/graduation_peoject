@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>No:</strong>
+  <%= @out_quantity_info.no %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @out_quantity_info.quantity %>
+</p>
+
+<p>
+  <strong>Out quantity time:</strong>
+  <%= @out_quantity_info.out_quantity_time %>
+</p>
+
+<%= link_to 'Edit', edit_out_quantity_info_path(@out_quantity_info) %> |
+<%= link_to 'Back', out_quantity_infos_path %>

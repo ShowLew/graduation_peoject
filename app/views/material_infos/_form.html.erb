@@ -1,0 +1,47 @@
+<%= form_with(model: material_info, local: true) do |form| %>
+  <% if material_info.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(material_info.errors.count, "error") %> prohibited this material_info from being saved:</h2>
+
+      <ul>
+      <% material_info.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :material_name %>
+    <%= form.text_field :material_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :quantity %>
+    <%= form.number_field :quantity %>
+  </div>
+
+  <div class="field">
+    <%= form.label :local %>
+    <%= form.text_field :local %>
+  </div>
+
+  <div class="field">
+    <%= form.label :supplier_name %>
+    <%= form.text_field :supplier_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :supplier_phone %>
+    <%= form.text_field :supplier_phone %>
+  </div>
+
+  <div class="field">
+    <%= form.label :latest_time %>
+    <%= form.datetime_select :latest_time %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,2 @@
+class OutQuantityInfo < ApplicationRecord
+end

@@ -1,0 +1,42 @@
+<%= form_with(model: use_material_info, local: true) do |form| %>
+  <% if use_material_info.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(use_material_info.errors.count, "error") %> prohibited this use_material_info from being saved:</h2>
+
+      <ul>
+      <% use_material_info.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :worker_number %>
+    <%= form.number_field :worker_number %>
+  </div>
+
+  <div class="field">
+    <%= form.label :worker_name %>
+    <%= form.text_field :worker_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :material_name %>
+    <%= form.text_field :material_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :quantity %>
+    <%= form.number_field :quantity %>
+  </div>
+
+  <div class="field">
+    <%= form.label :use_time %>
+    <%= form.datetime_select :use_time %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

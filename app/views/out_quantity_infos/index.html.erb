@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Out Quantity Infos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>No</th>
+      <th>Quantity</th>
+      <th>Out quantity time</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @out_quantity_infos.each do |out_quantity_info| %>
+      <tr>
+        <td><%= out_quantity_info.no %></td>
+        <td><%= out_quantity_info.quantity %></td>
+        <td><%= out_quantity_info.out_quantity_time %></td>
+        <td><%= link_to 'Show', out_quantity_info %></td>
+        <td><%= link_to 'Edit', edit_out_quantity_info_path(out_quantity_info) %></td>
+        <td><%= link_to 'Destroy', out_quantity_info, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Out Quantity Info', new_out_quantity_info_path %>

@@ -1,0 +1,32 @@
+<%= form_with(model: out_quantity_info, local: true) do |form| %>
+  <% if out_quantity_info.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(out_quantity_info.errors.count, "error") %> prohibited this out_quantity_info from being saved:</h2>
+
+      <ul>
+      <% out_quantity_info.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :no %>
+    <%= form.text_field :no %>
+  </div>
+
+  <div class="field">
+    <%= form.label :quantity %>
+    <%= form.number_field :quantity %>
+  </div>
+
+  <div class="field">
+    <%= form.label :out_quantity_time %>
+    <%= form.datetime_select :out_quantity_time %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

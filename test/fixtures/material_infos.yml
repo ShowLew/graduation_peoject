@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  material_name: MyString
+  quantity: 1
+  local: MyString
+  supplier_name: 
+  supplier_phone: MyString
+  latest_time: 2018-05-01 19:09:40
+
+two:
+  material_name: MyString
+  quantity: 1
+  local: MyString
+  supplier_name: 
+  supplier_phone: MyString
+  latest_time: 2018-05-01 19:09:40

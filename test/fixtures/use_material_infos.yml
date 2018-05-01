@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  worker_number: 1
+  worker_name: MyString
+  material_name: 
+  quantity: 1
+  use_time: 2018-05-01 19:12:20
+
+two:
+  worker_number: 1
+  worker_name: MyString
+  material_name: 
+  quantity: 1
+  use_time: 2018-05-01 19:12:20

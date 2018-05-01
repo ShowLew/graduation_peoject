@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Material name:</strong>
+  <%= @material_info.material_name %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @material_info.quantity %>
+</p>
+
+<p>
+  <strong>Local:</strong>
+  <%= @material_info.local %>
+</p>
+
+<p>
+  <strong>Supplier name:</strong>
+  <%= @material_info.supplier_name %>
+</p>
+
+<p>
+  <strong>Supplier phone:</strong>
+  <%= @material_info.supplier_phone %>
+</p>
+
+<p>
+  <strong>Latest time:</strong>
+  <%= @material_info.latest_time %>
+</p>
+
+<%= link_to 'Edit', edit_material_info_path(@material_info) %> |
+<%= link_to 'Back', material_infos_path %>

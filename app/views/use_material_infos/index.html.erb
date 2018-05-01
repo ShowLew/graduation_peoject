@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Use Material Infos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Worker number</th>
+      <th>Worker name</th>
+      <th>Material name</th>
+      <th>Quantity</th>
+      <th>Use time</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @use_material_infos.each do |use_material_info| %>
+      <tr>
+        <td><%= use_material_info.worker_number %></td>
+        <td><%= use_material_info.worker_name %></td>
+        <td><%= use_material_info.material_name %></td>
+        <td><%= use_material_info.quantity %></td>
+        <td><%= use_material_info.use_time %></td>
+        <td><%= link_to 'Show', use_material_info %></td>
+        <td><%= link_to 'Edit', edit_use_material_info_path(use_material_info) %></td>
+        <td><%= link_to 'Destroy', use_material_info, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Use Material Info', new_use_material_info_path %>
