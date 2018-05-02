@@ -1,15 +1,18 @@
 ActiveAdmin.register UseMaterialInfo do
-# See permitted parameters documentation:
-# https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
-#
-# permit_params :list, :of, :attributes, :on, :model
-#
-# or
-#
-# permit_params do
-#   permitted = [:permitted, :attributes]
-#   permitted << :other if params[:action] == 'create' && current_user.admin?
-#   permitted
-# end
+  menu priority: 6
+  permit_params :worker_number, :worker_name, :material_name, :quantity, :use_time
 
+  inedx do
+    selectable_column
+    column 'Worker_Number', :worker_number
+    column 'Worker_Name', :worker_name
+    column 'Material_Name', :material_name
+    column 'Quantity', :quantity
+    %i[use_time].each do |prop|
+      column prop do |user|
+        Time.at(user.send(prop)).strftime('%Y-%m-%d %H')
+      end
+    end
+
+  end
 end
