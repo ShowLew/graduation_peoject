@@ -18,6 +18,7 @@ ActiveAdmin.register OutQuantityInfo do
     f.inputs 'Out Quantity' do
       %i[no quantity out_quantity_time].each {|prop| f.input(prop)}
     end
+    f.actions
   end
 
 end

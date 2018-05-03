@@ -6,7 +6,7 @@ class CreateMaterialInfos < ActiveRecord::Migration[5.2]
       t.string :local
       t.string :supplier_name
       t.string :supplier_phone
-      t.datetime :latest_time,     default:Time.zone.now
+      t.datetime :latest_time,     default: Time.current
 
       t.timestamps
     end

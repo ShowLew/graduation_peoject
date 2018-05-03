@@ -21,7 +21,7 @@ ActiveAdmin.register OutWarehouseInfo do
     column 'Finish', :finish
 
     column 'Phone', :buyer_phone do |user|
-      '+86-'.concat user.buyer_phone if user.buyer_phone.present?
+      '+86-' + user.buyer_phone if user.buyer_phone.present?
     end
 
     # column :url do |user|
@@ -33,7 +33,7 @@ ActiveAdmin.register OutWarehouseInfo do
 
   form do |f|
     f.inputs 'Sale' do
-      %i[out_no out_address buyer_phone out_time finish buyer_name].each { |prop| f.input prop }
+      %i[out_no out_address buyer_phone out_time finish buyer_name].each {|prop| f.input prop }
     end
     f.actions
   end

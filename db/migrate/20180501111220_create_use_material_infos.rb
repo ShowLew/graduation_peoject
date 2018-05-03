@@ -5,7 +5,7 @@ class CreateUseMaterialInfos < ActiveRecord::Migration[5.2]
       t.string :worker_name
       t.string :material_name
       t.integer :quantity,          default: 1
-      t.datetime :use_time,         default:Time.zone.now
+      t.datetime :use_time,         default: Time.current
 
       t.timestamps
     end

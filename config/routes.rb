@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :warehouses
   resources :out_quantity_infos
   resources :use_material_infos
   resources :material_infos

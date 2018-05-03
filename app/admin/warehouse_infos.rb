@@ -2,18 +2,18 @@ ActiveAdmin.register WarehouseInfo do
   menu priority: 3
   permit_params :no, :size, :fragile, :in_time, :quantity, :local
 
-  show do
-    attributes_table do
-      %i[no size fragile intime quantity local].each { |prop| row prop }
-      # row('followers') { |user| textarea user.followers.pluck(:name).join("\n") }
-    end
-  end
+  # show do
+  #   attributes_table do
+  #     %i[no size fragile intime quantity local].each { |prop| row prop }
+  #     # row('followers') { |user| textarea user.followers.pluck(:name).join("\n") }
+  #   end
+  # end
 
   index do
     selectable_column
     column 'No#', :no
     column 'Size', :size
-    column 'InTime', :intime
+    column 'InTime', :in_time
     # in_time cant nil
     # %i[intime].each do |prop|
     #   column prop do |user|
@@ -34,12 +34,13 @@ ActiveAdmin.register WarehouseInfo do
 
   form do |f|
     f.inputs 'Item Info' do
-      # f.input :user_info, as: :select, collection: UserInfo.pluck(:email)
-      %i[no size intime quantity local].each { |prop| f.input prop }
+      %i[no size in_time quantity local].each { |prop| f.input prop }
       f.input :fragile, as: :select
     end
     f.actions
   end
+
   filter :no
   filter :local
+  filter :fragile
 end

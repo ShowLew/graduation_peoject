@@ -4,7 +4,7 @@ class CreateWarehouseInfos < ActiveRecord::Migration[5.2]
       t.string :no
       t.string :size
       t.boolean :fragile
-      t.datetime :in_time
+      t.datetime :in_time,      default: Time.current
       t.integer :quantity
       t.string :local
 
