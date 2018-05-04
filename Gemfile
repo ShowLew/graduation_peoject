@@ -51,6 +51,17 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
+  # http://nadarei.co/mina/
+  gem 'mina', require: false
+  # https://github.com/untitledkingdom/mina-puma
+  gem 'mina-puma', require: false
+  # Plugin for Mina that adds support for multiple stages.
+  # https://github.com/endoze/mina-multistage
+  gem 'mina-multistage', require: false
+  # https://github.com/Mic92/mina-sidekiq/
+  gem 'mina-sidekiq', require: false
+
 end
 
 group :test do
@@ -73,6 +84,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'activeadmin', github: 'activeadmin/activeadmin'
 
 
-
-
 gem 'devise'
+
+
+#mina
+gem 'mina'

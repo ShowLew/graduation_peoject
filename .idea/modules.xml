@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$USER_HOME$/app_demo/.idea/app_demo.iml" filepath="$USER_HOME$/app_demo/.idea/app_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/graduation_project.iml" filepath="$PROJECT_DIR$/.idea/graduation_project.iml" />
+      <module fileurl="file://$USER_HOME$/zero-rails/.idea/zero-rails.iml" filepath="$USER_HOME$/zero-rails/.idea/zero-rails.iml" />
     </modules>
   </component>
 </project>
