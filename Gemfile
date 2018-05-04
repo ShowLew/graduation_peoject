@@ -89,3 +89,8 @@ gem 'devise'
 
 #mina
 gem 'mina'
+
+
+# Easiest way to add multi-environment yaml settings to Rails
+# https://github.com/railsconfig/config
+gem 'config'
