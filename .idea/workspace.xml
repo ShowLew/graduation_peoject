@@ -2,32 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6ab3694-a9d8-4d7b-9e8d-1606d170f00c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/config/deploy.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/deploy/production.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/deploy/staging.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/staging.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/logrotate.conf.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mina/logrotate.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mina/nginx.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mina/puma.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mina/ruby.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mina/rvm.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mina/share.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mina/ubuntu.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/nginx.conf.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/puma.rb.erb" afterDir="false" />
       <change beforePath="$USER_HOME$/app_demo/app/controllers/application_controller.rb" beforeDir="false" afterPath="$USER_HOME$/app_demo/app/controllers/application_controller.rb" afterDir="false" />
       <change beforePath="$USER_HOME$/app_demo/app/views/layouts/admin/application.html.erb" beforeDir="false" afterPath="$USER_HOME$/app_demo/app/views/admin/application.html.erb" afterDir="false" />
       <change beforePath="$USER_HOME$/app_demo/config/application.rb" beforeDir="false" afterPath="$USER_HOME$/app_demo/config/application.rb" afterDir="false" />
       <change beforePath="$USER_HOME$/app_demo/config/initializers/active_admin.rb" beforeDir="false" afterPath="$USER_HOME$/app_demo/config/initializers/active_admin.rb" afterDir="false" />
       <change beforePath="$USER_HOME$/app_demo/config/routes.rb" beforeDir="false" afterPath="$USER_HOME$/app_demo/config/routes.rb" afterDir="false" />
       <change beforePath="$USER_HOME$/app_demo/db/schema.rb" beforeDir="false" afterPath="$USER_HOME$/app_demo/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/graduation_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/graduation_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
       <change beforePath="$USER_HOME$/zero-rails/Gemfile" beforeDir="false" afterPath="$USER_HOME$/zero-rails/Gemfile" afterDir="false" />
       <change beforePath="$USER_HOME$/zero-rails/Gemfile.lock" beforeDir="false" afterPath="$USER_HOME$/zero-rails/Gemfile.lock" afterDir="false" />
       <change beforePath="$USER_HOME$/zero-rails/app/admin/user.rb" beforeDir="false" afterPath="$USER_HOME$/zero-rails/app/admin/user.rb" afterDir="false" />
@@ -53,20 +35,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="deploy.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/deploy.rb">
+      <file leaf-file-name="test.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="342">
+              <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="staging.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/deploy/staging.rb">
+      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="17" column="56" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="56" />
+            <state relative-caret-position="95">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/app_demo/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/zero-rails/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="staging.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/staging.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -116,11 +152,12 @@
         <option value="$USER_HOME$/zero-rails/config/secrets.yml.example" />
         <option value="$USER_HOME$/zero-rails/config/deploy.rb" />
         <option value="$USER_HOME$/zero-rails/config/deploy/staging.rb" />
-        <option value="$PROJECT_DIR$/config/deploy/staging.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
         <option value="$USER_HOME$/zero-rails/config/environments/test.rb" />
+        <option value="$PROJECT_DIR$/config/deploy/staging.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       </list>
     </option>
   </component>
@@ -139,10 +176,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="1377" />
-    <option name="height" value="912" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="688" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -162,28 +199,58 @@
             <path>
               <item name="graduation_peoject" type="b2602c69:ProjectViewProjectNode" />
               <item name="graduation_peoject" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation_peoject" type="b2602c69:ProjectViewProjectNode" />
               <item name="graduation_peoject" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="deploy" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation_peoject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zero-rails" type="462c0819:PsiDirectoryNode" />
+              <item name="graduation_peoject" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation_peoject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zero-rails" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="graduation_peoject" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation_peoject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zero-rails" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
+              <item name="graduation_peoject" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="warehouse_infos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation_peoject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation_peoject" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation_peoject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduation_peoject" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation_peoject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation_peoject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduation_peoject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,12 +297,12 @@
       <option name="presentableId" value="Default" />
       <updated>1525331268431</updated>
       <workItem from="1525331269780" duration="12356000" />
-      <workItem from="1525349165140" duration="12258000" />
+      <workItem from="1525349165140" duration="15373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24614000" />
+    <option name="totallyTimeSpent" value="27729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1375" height="904" extended-state="6" />
@@ -247,7 +314,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49962378" visible="true" weight="0.19404916" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49962378" visible="true" weight="0.4553687" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27765238" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -270,27 +337,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/warehouses/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/admin_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20180501080519_create_active_admin_comments.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/warehouse.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -370,13 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="35" column="74" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1050">
-          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -533,29 +572,12 @@
         <state relative-caret-position="-249" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/zero-rails/config/environments/test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor" />
@@ -567,27 +589,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/staging.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/zero-rails/config/environments/staging.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/staging.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="256">
+          <caret line="94" column="58" lean-forward="true" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy/staging.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="56" />
+        <state relative-caret-position="251">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/zero-rails/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/app_demo/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
         </state>
       </provider>
     </entry>
