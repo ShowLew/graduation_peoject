@@ -11,6 +11,18 @@ ActiveAdmin.register MaterialInfo do
 
   index do
 
+    columns do
+      column span: 3 do
+        span "Emergency Material"
+      end
+      column do
+        MaterialInfo.where(:quantity => (0..20)).size
+      end
+      column do
+        link_to 'admin_material', "materials"
+      end
+    end
+
     selectable_column
     column 'M_Name', :material_name
     column 'Quantity', :quantity

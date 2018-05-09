@@ -10,6 +10,19 @@ ActiveAdmin.register WarehouseInfo do
   # end
 
   index do
+
+    columns do
+      column span: 3 do
+        span "Emergency : "
+      end
+      column do
+        WarehouseInfo.where(:quantity => (0..3)).size
+      end
+      column do
+        link_to 'admin_warehouse', 'warehouses'
+      end
+    end
+
     selectable_column
     column 'No#', :no
     column 'Size', :size
@@ -40,7 +53,7 @@ ActiveAdmin.register WarehouseInfo do
     f.actions
   end
 
-  filter :no
+  # filter :no
   filter :local
   filter :fragile
 end

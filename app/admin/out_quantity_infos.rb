@@ -21,4 +21,6 @@ ActiveAdmin.register OutQuantityInfo do
     f.actions
   end
 
+  filter :no
+  filter :out_quantity_time
 end
