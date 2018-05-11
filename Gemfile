@@ -85,11 +85,14 @@ gem 'activeadmin', github: 'activeadmin/activeadmin'
 
 
 gem 'devise'
+# https://github.com/CanCanCommunity/cancancan
+gem 'cancancan', '~> 2.0'
 
 
 #mina
 gem 'mina'
 
+gem 'newrelic_rpm'
 
 # Easiest way to add multi-environment yaml settings to Rails
 # https://github.com/railsconfig/config

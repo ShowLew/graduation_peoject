@@ -76,6 +76,7 @@ GEM
       msgpack (~> 1.0)
     builder (3.2.3)
     byebug (10.0.2)
+    cancancan (2.2.0)
     capybara (3.0.3)
       addressable
       mini_mime (>= 0.1.3)
@@ -203,6 +204,7 @@ GEM
     msgpack (1.2.4)
     multi_json (1.13.1)
     mysql2 (0.4.10)
+    newrelic_rpm (5.0.0.342)
     nio4r (2.3.1)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
@@ -314,6 +316,7 @@ DEPENDENCIES
   activeadmin!
   bootsnap (>= 1.1.0)
   byebug
+  cancancan (~> 2.0)
   capybara (>= 2.15, < 4.0)
   chromedriver-helper
   coffee-rails (~> 4.2)
@@ -326,6 +329,7 @@ DEPENDENCIES
   mina-puma
   mina-sidekiq
   mysql2 (>= 0.3.18, < 0.5)
+  newrelic_rpm
   puma (~> 3.11)
   rails (~> 5.2.0)
   sass-rails (~> 5.0)

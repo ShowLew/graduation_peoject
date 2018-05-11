@@ -1,14 +1,24 @@
 ActiveAdmin.register Warehouse do
-   menu priority:9
+   menu false
   # permit_params :no, :quantity
 
   index do
-    column 'NO'
-    column 'Q' do |warehouse_info|
-      WarehouseInfo.where(quantity: (0..3)).pluck :no
+    table_for WarehouseInfo.where(:quantity => (0..3)) do
+      column "Emergency: ",     :no
+      column "Quantity: ",      :quantity
+      column "Local: ",         :local
     end
-    column 'M' do |material_info|
-      MaterialInfo.where(quantity: (0..10)).pluck :material_name
+  end
+  sidebar :help do
+    ul do
+     li "Not sure to produce this product?"
+     li "Please call the manager."
+    end
+  end
+  sidebar :help do
+    ul do
+     li "Manage-Phone: 13308230953"
+     li "Worker_Phone: 13399999999"
     end
   end
   config.filters = false

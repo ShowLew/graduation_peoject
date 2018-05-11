@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_05_03_071759) do
+ActiveRecord::Schema.define(version: 2018_05_09_110221) do
 
   create_table "active_admin_comments", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.string "namespace"
@@ -50,6 +50,11 @@ ActiveRecord::Schema.define(version: 2018_05_03_071759) do
     t.string "supplier_name"
     t.string "supplier_phone"
     t.datetime "latest_time", default: "2018-05-03 11:18:56"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "materials", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
